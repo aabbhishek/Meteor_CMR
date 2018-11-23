@@ -1,0 +1,62 @@
+*{
+	font-family: 'Roboto', sans-serif;
+}
+body{
+	overflow: hidden;
+}
+.cup{
+	cursor: pointer;
+	transition: 1s;
+}.cup:hover{
+	filter: brightness(150%);
+}
+
+.card{
+	border-radius: 25px;
+	background-color: rgb(14,4,20);
+	position: absolute;
+	left: 23%!important;
+	
+	color: #fff;
+}.lable-f{
+	font-size: 18px;
+}.image-size{
+	height: 100px;
+	width: 100px;
+}.input-style{
+	background-color: rgba(0,0,0,0)!important;
+	color: #fff !important;
+	border: 0 !important;
+	border-radius: 0px !important;
+	border-bottom: 2px solid #fff !important;
+	margin: 0;
+	padding: 0;
+	text-align: left;
+	  
+}textarea:focus, input:focus{
+    outline: 0px !important;
+}
+.text_lable{
+	color: #fff;
+	font-size: 20px;
+	font-family: 'Roboto';
+}.cutomer-interface{
+	z-index: 100;
+	display: none;
+	position: absolute; 
+	top: 0px;
+	background-color: #e0c0f4;
+	height: 100%;
+	width: 100%;
+}.box-display{
+	
+	background-color: #5f1889;
+	color: #fff;
+	height: 150px!important;
+	margin-left: 30px;
+
+}
+.val_down{
+	position: relative; 
+	top: 35px;
+}

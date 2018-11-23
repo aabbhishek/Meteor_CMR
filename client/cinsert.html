@@ -1,0 +1,57 @@
+<template name="cinsert">
+	
+		<div class="modal fade bd-example-modal-lg cinsert_data" style="opacity: 1;background-color: rgba(14,4,20,0.9);" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  		<div class="modal-dialog modal-lg" style="background-color: #9f3bdd;position: relative;top: 20%;border-radius: 10px;">
+  		
+   			 <div class="modal-content" style="background-color: #9f3bdd;">
+   			 	<div class="modal-header">
+       			 <h5 class="modal-title" style="color: #fff;font-family: 'Oswald';font-weight: bold; font-size: 30px;">Insert Data</h5>
+       			 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+         			 <span aria-hidden="true">&times;</span>
+      			  </button>
+    		  </div>
+
+  				<div class="modal-body">
+  					
+  					<form class="cinter_from">
+					  <div class="form-group">
+					    <label class="text_lable" style="padding: 0;margin:0;">Transaction ID</label>
+					    <input type="text" name="ctid" id="ctid" class="form-control input-style" style="padding: 0;margin:0;">
+					    
+					  </div>
+					  <br>
+					  
+					  <div class="form-group">
+					     <label class="text_lable" style="padding: 0;margin:0;">Account ID</label>
+					     <input type="text" name="caid" id="caid" class="form-control input-style" style="padding: 0;margin:0;">
+
+					  </div>
+					  <br>
+					  
+
+					  <div class="form-group">
+					     <label class="text_lable" style="padding: 0;margin:0;">Status	</label>
+					     <input type="text" name="cstat" id="cstat" class="form-control input-style" style="padding: 0;margin:0;">
+					  </div>
+					  <br>
+					  
+					  <div class="form-group">
+					     <label  class="text_lable" style="padding: 0;margin:0;">Amount</label>
+					     <input type="text"  id="camt" name="camt" class="form-control input-style" style="padding: 0;margin:0;">
+					  </div>
+					   <center><button type="submit" class="btn btn-dark col-md-10 custm_data">Submit</button></center>
+
+
+					</form>
+
+
+
+  				</div>
+      			
+    		</div>
+ 		 </div>
+	</div>	
+
+
+
+</template>

@@ -1,0 +1,50 @@
+<template name="model">
+	<div class="modal fade bd-example-modal-lg regs" style="opacity: 1;background-color: rgba(14,4,20,0.9);" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  		<div class="modal-dialog modal-lg" style="background-color: #9f3bdd;position: relative;top: 20%;border-radius: 10px;">
+  		
+   			 <div class="modal-content" style="background-color: #9f3bdd;">
+   			 	<div class="modal-header">
+       			 <h5 class="modal-title" style="color: #fff;font-family: 'Oswald';font-weight: bold; font-size: 30px;">Register</h5>
+       			 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+         			 <span aria-hidden="true">&times;</span>
+      			  </button>
+    		  </div>
+
+  				<div class="modal-body">
+  					
+  					<form class="reg_form">
+					  <div class="form-group">
+					    <label for="exampleInputEmail1" class="text_lable" style="padding: 0;margin:0;">Username</label>
+					    <input type="text" name="username" id="username" class="form-control input-style" style="padding: 0;margin:0;">
+					    
+					  </div>
+					  <br>
+					  
+					  <div class="form-group">
+					     <label for="exampleInputEmail1" class="text_lable" style="padding: 0;margin:0;">Email Id</label>
+					     <input type="email" name="email" id="email_id" class="form-control input-style" style="padding: 0;margin:0;">
+
+					  </div>
+					  <br>
+					  
+					  <div class="form-group">
+					     <label for="exampleInputEmail1" class="text_lable" style="padding: 0;margin:0;">Password</label>
+					     <input type="password" name="password" id="password" class="form-control input-style" style="padding: 0;margin:0;">
+					  </div>
+					  <br>
+					  
+					  <div class="form-group">
+					     <label for="exampleInputEmail1" id="cpassword" class="text_lable" style="padding: 0;margin:0;">Confirm Password</label>
+					     <input type="password"  id="cpassword" name="cpassword" class="form-control input-style" style="padding: 0;margin:0;">
+					  </div>
+					   <center><button type="submit" class="btn btn-dark col-md-10">Submit</button></center>
+					</form>
+
+
+
+  				</div>
+      			
+    		</div>
+ 		 </div>
+	</div>
+</template>

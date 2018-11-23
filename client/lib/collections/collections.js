@@ -1,0 +1,1 @@
+cusmtable = new Mongo.Collection('cusmtable');

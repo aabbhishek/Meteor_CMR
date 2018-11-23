@@ -1,0 +1,144 @@
+<template name="login_lay">
+  
+  <div class="row" style="height: 1000px;">
+
+    <div class="col-md-4 cup customer" style="padding: 0;margin:0;">
+      <div class="cust" style="width: 100%;height: 100%;background-color: #a74bdf;">
+        <div class="c-show-1">
+          <center>
+            <br>
+            <div class="c-show-1-inner" style="position: relative;top: 250px;">
+            <img alt="" src="user.png" class="image-size">
+
+            <h3 class="CL-W" style="color: #fff;font-family: 'Oswald', sans-serif;">Customer </h3>
+            </div>
+
+          </center>
+        </div>
+        <div class="c-show-2" style="display: none; position: relative;top: 150px;">
+          
+              <br>
+              <form class="cutomer_login">
+                <div class="from-group">
+                  <label class="text_lable" style="position: relative;left: 59px; padding: 0;margin:0;">Customer Username</label>
+                  <center>
+                  <div class="col-md-10">
+                  <input type="text" class="form-control input-style" id="customer_id" name="customer_id" aria-describedby="emailHelp">
+                  </div>
+                  </center>
+                  <br><br>
+                  <label class="text_lable" style="position: relative;left: 59px;padding: 0;margin:0;">Password</label>
+                  <center>
+                    <div class="col-md-10">
+                    <input type="password" class="form-control input-style" id="customer_pass" name="customer_pass">
+                  </div>
+                  <br>
+                  <br>
+                  <button class="btn btn-dark" style="width: 80%;">LogIn</button>
+                  <br>
+                  <br>
+                  <div class="btn btn-dark registe-open" style="width: 80%;">Register</div>
+                  </center>
+
+                </div>
+              </form>
+              
+          
+          </div>
+
+
+      </div>
+    </div>
+
+    <div class="col-md-4 cup employe" style="padding: 0;margin:0;">
+      <div class="Emply" style="width: 100%;height: 100%;background-color: #1a0725">
+        <div class="e-show-1">
+          <center>
+            <br>
+            <div class="e-show-1-inner" style="position: relative;top: 250px;">
+            <img alt="" src="employ.png" class="image-size">
+
+            <h3 class="EL-W" style="color: #fff;font-family: 'Oswald', sans-serif;">Employee Login</h3>
+            </div>
+          </center>
+        </div>
+
+        <div class="e-show-2" style="display: none; position: relative;top: 150px;">
+          
+              <br>
+              <form>
+                <div class="from-group">
+                  <label class="text_lable" style="position: relative;left: 59px; padding: 0;margin:0;">Employe ID</label>
+                  <center>
+                  <div class="col-md-10">
+                  <input type="email" class="form-control input-style" id="employe_id" aria-describedby="emailHelp">
+                  </div>
+                  </center>
+                  <br><br>
+                  <label class="text_lable" style="position: relative;left: 59px;padding: 0;margin:0;">Password</label>
+                  <center>
+                    <div class="col-md-10">
+                    <input type="password" class="form-control input-style" id="employe_pass">
+                  </div>
+                  <br>
+                  <br>
+                  <button class="btn btn-dark" style="width: 80%;">LogIn</button>
+                  </center>
+
+                </div>
+              </form>
+              
+          
+        </div>
+
+
+      </div>
+    </div>
+    <div class="col-md-4 cup manager" style="padding: 0;margin:0;">
+      <div class="Mang" style="width: 100%;height: 100%;background-color: #a74bdf">
+        <div class="m-show-1">
+          <center>
+            <br>
+            <div class="m-show-1-inner" style="position: relative;top: 250px;">
+            <img alt="" src="manager.png" class="image-size">
+
+            <h3 class="ML-W" style="color: #fff;font-family: 'Oswald', sans-serif;">Manager Login</h3>
+            </div>
+          </center>
+        </div>
+
+         <div class="m-show-2" style="display: none; position: relative;top: 150px;">
+          
+              <br>
+              <form>
+                <div class="from-group">
+                  <label class="text_lable" style="position: relative;left: 59px; padding: 0;margin:0;">Manager ID</label>
+                  <center>
+                  <div class="col-md-10">
+                  <input type="email" class="form-control input-style" id="manager_id" aria-describedby="emailHelp">
+                  </div>
+                  </center>
+                  <br><br>
+                  <label class="text_lable" style="position: relative;left: 59px;padding: 0;margin:0;">Password</label>
+                  <center>
+                    <div class="col-md-10">
+                    <input type="password" class="form-control input-style" id="manager_pass">
+                  </div>
+                  <br>
+                  <br>
+                  <button class="btn btn-dark" style="width: 80%;">LogIn</button>
+                  </center>
+
+                </div>
+              </form>
+              
+          
+        </div>
+
+
+      </div>
+    </div>
+  </div>
+
+  {{> model}} 
+</template>

@@ -1,0 +1,70 @@
+<template name="custm">
+	<div class="cutomer-interface">
+			<br>
+			<div class="row">
+				<div class="custmer-baln col-md-3 box-display" style="background-color: #250936;color: #fff;margin-left: 150px;"> 		
+					<center  > 
+						<h2 class="val_down cust_name"></h2>
+						<h3 class="val_down cust_email"></h3>
+					</center>
+				</div>
+
+				<div class="custmer-baln col-md-3 box-display" style="background-color: #250936;color: #fff;"> 		
+					<center  > 
+						<h2 class="val_down">Total Balance </h2>
+						<h3 class="val_down">&#8377; 3000</h3>
+					</center>
+				</div>
+
+				<div class="custmer-baln col-md-3 box-display" style="background-color: #250936;color: #fff;"> 		
+					<center  > 
+						<h2 class="val_down">Last Transaction </h2>
+						<h3 class="val_down">&#8377; 1000</h3>
+					</center>
+				</div>
+
+				
+			</div>
+				<br>
+				<br>
+
+			<div class="tb">
+				<table class="table table-striped">
+				  <thead style="background-color: #0e0414;color: #fff;">
+				    <tr>
+				      <th scope="col">#</th>
+				      <th scope="col">Transaction ID</th>
+				      <th scope="col">Account ID</th>
+				      <th scope="col">Date</th>
+				      <th scope="col">Status</th>
+				      <th scope="col">Amount</th>
+				    </tr>
+				  </thead>
+				  <tbody>
+				    <tr>
+				      <th scope="row">1</th>
+				      <td>00111111</td>
+				      <td>PNB001111</td>
+				      <td>25/5/2018</td>
+				      <td>Sent</td>
+				      <td>&#8377; 90,000</td>
+				    </tr>
+				   
+				  </tbody>
+				</table>
+
+				<div>
+					<center>
+						<div class="btn btn-dark enter_value_custm">Insert Values</div>
+					</center>
+
+				</div>	
+
+			</div>	
+
+	</div>
+
+		
+{{> cinsert}}
+
+</template>
